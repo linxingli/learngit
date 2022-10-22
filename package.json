@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "echo \"[Husky] pre-commit\""
+    "test": "echo \"[Husky] pre-commit-lalllallallala\"",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
