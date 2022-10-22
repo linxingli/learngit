@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "打印===》"$file""
+echo "打印===》"$1""
 
 npm test
