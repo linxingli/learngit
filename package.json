@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "echo \"[Husky] pre-commit-lalllallallala\"",
+    "test": "node jugeChangePath.js",
     "prepare": "husky install"
   },
   "husky": {
