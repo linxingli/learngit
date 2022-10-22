@@ -1,8 +1,8 @@
 {
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
-    }
+  "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "echo \"[Husky] pre-commit\""
   },
   "dependencies": {
     "husky": "^8.0.1"
